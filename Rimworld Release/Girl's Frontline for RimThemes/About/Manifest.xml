@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>GirlsFrontlineTheme</identifier>
+    <version>0.5 BETA</version>
+    <dependencies>
+        <li>RimThemes</li>
+    </dependencies>
+    <incompatibleWith>
+	</incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+        <li>RimThemes</li>
+    </loadAfter>
+    <suggests>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+  </Manifest>
