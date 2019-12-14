@@ -4,7 +4,8 @@
 
 这个是针对重制版的部署流程，传奇版可用于参考。
 
-关于身形，再三考虑之下选择了 CBBE，因为传奇版大显光彩的 UUNP 还没完善，其实也是无奈之举。
+1. 关于身形，再三考虑之下选择了 CBBE，因为传奇版大显光彩的 UUNP 还没完善，其实也是无奈之举。
+2. 部分模组测试：传奇版动作文件不再能直接使用（会摆大字）；装备基本上可以直接用，但 SMP 的不行。
 
 
 
@@ -31,10 +32,11 @@
 - 通用框架：http://www.9damaomods.com/thread-61877-1-1.html
 - SMP 插件：http://www.9damaomods.com/thread-61878-1-1.html
 - 高跟鞋框架：http://www.9damaomods.com/thread-39231-1-1.html
+- 或者考虑这个链接（包含了通用框架和 SMP 插件，不知道为什么我是用这个才管用）：https://www.nexusmods.com/skyrimspecialedition/mods/30872?tab=files
 
 部署：提取 Data 文件夹的内容，粘贴到 Data 目录，例如 `steamapps\common\Skyrim Special Edition\Data`。
 
-### Bodyslide
+### BodySlide
 
 > 用于生成特定标准的身形模型。
 
@@ -53,7 +55,7 @@
 - 部署 2：使用 MO 2 安装，然后在右侧“数据”选项卡中找到 GenerateFNISforUsers.exe 右键添加为可执行程序。（可能会有 BUG）
 - 部署 3：使用 MO 2 安装，通过 Explore Virtual Folder 找到 GenerateFNISforUsers.exe 并运行。（推荐！）
 
-### ECE
+### Enhance Character Editor (ECE)
 
 > 捏脸用的。
 
@@ -82,6 +84,12 @@
 > 与 HDT 大佬的高跟鞋框架类似，有些模组会需要。
 
 下载：https://www.nexusmods.com/skyrimspecialedition/mods/18045?tab=description
+
+### JContainers SE
+
+> 有些模组会需要它，例如纹身插件。
+
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/16495
 
 
 
@@ -118,6 +126,10 @@
 下载：https://www.nexusmods.com/skyrimspecialedition/mods/13048/?
 
 参考：http://www.9damaomods.com/thread-36840-1-1.html
+
+### FileAccess Interface for Skyrim SE Scripts (FISSes)
+
+> 有些界面定制的模组会需要它。
 
 
 
@@ -159,6 +171,8 @@
 
 ### 彩色地图标志
 
+> 游戏中打开地图会报错，但是不影响使用。
+
 - 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=10631
 
 ### 终极中文字体字库
@@ -196,21 +210,13 @@
 >
 > VideoMemorySizeMb=6144
 
-####Visceral 电影风格
-
-- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/21779?tab=description
-
-#### 神话时代 **Mythical ENB**
-
-- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/11660?tab=description
-
 #### ISO ENB（比较推荐）
 
 - 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=141439
 
-#### RZ-ENB 电影写实风（性能稍差）
+#### Re-Engaged ENB（人物拍照挺不错的）
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=136240
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/1089
 
 ### 光照优化 Enhanced Lights and FX
 
@@ -270,6 +276,11 @@ SpecularPowerMultiplierInteriorNight=6
 ### Yundao HDT Hair
 
 > 晕倒大大的 HDT 发型包，注意它是以装备的形式存在的。
+>
+> 注意传奇版的与重制版不通用。
+
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/18566?tab=description
+
 
 
 
