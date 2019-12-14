@@ -4,11 +4,13 @@
 
 这个是针对重制版的部署流程，传奇版可用于参考。
 
+关于身形，再三考虑之下选择了 CBBE，因为传奇版大显光彩的 UUNP 还没完善，其实也是无奈之举。
+
+
+
 ## 0、系统需求
 
 如缺少 D3Dcompiler_43.dll，则需要安装 DX June 2010：https://www.microsoft.com/en-us/download/confirmation.aspx?id=8109
-
-
 
 
 
@@ -18,7 +20,7 @@
 
 > 万物之始？
 
-- 下载：http://skse.silverlock.org（下载 Current SE Build）
+- 下载：http://skse.silverlock.org （下载 Current SE Build）
 
 部署：解压至 Skyrim Special Edition 目录，例如 `steamapps\common\Skyrim Special Edition`。
 
@@ -37,18 +39,26 @@
 > 用于生成特定标准的身形模型。
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/201/?tab=files
+- 部署 1：手动解压至 Data 目录（但版本更新时需要重新手动替换）。
+- 部署 2：使用 MO 2 安装，然后在右侧“数据”选项卡中找到 BodySlide.exe 右键添加为可执行程序。（推荐！）
+- 部署 3：使用 MO 2 安装，通过 Explore Virtual Folder 找到 BodySlide.exe 并运行。
+- 注意现阶段暂无任何 UUNP 预设。
 
 ### FNIS
 
 > 用于刷新动作文件，防止人物摆大字。
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/3038
+- 部署 1：手动解压至 Data 目录（但版本更新时需要重新手动替换）。
+- 部署 2：使用 MO 2 安装，然后在右侧“数据”选项卡中找到 GenerateFNISforUsers.exe 右键添加为可执行程序。（可能会有 BUG）
+- 部署 3：使用 MO 2 安装，通过 Explore Virtual Folder 找到 GenerateFNISforUsers.exe 并运行。（推荐！）
 
 ### ECE
 
 > 捏脸用的。
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/17121
+- 捏脸预设存放在 `你的文档\My Games\Skyrim Special Edition\CME_save`，它的路径是与 MO 2 profile 无关的。
 
 ### Net Immerse
 
@@ -66,6 +76,12 @@
 > [Racemenu 0.4.2](https://www.nexusmods.com/skyrimspecialedition/mods/19080)﻿ or newer (extract the RaceMenu bsa and install only the nioverride.pex and the skee.dll/ini)
 
 注意如果安装 SOS 等插件需要重新检查补丁。
+
+### RaceMenu High Heels Fixes
+
+> 与 HDT 大佬的高跟鞋框架类似，有些模组会需要。
+
+下载：https://www.nexusmods.com/skyrimspecialedition/mods/18045?tab=description
 
 
 
@@ -171,18 +187,30 @@
 > 有些 ENB 安装包不包含 ENB 核心文件，需要自行到该网站下载：http://enbdev.com/download.html
 >
 > 下载后，将 .dll 文件部署到 Skyrim Special Edition 目录即可。
+>
+> 使用 ENB 之后进入游戏会黑屏，左上角的文字是说在为 Shader 设置缓存，如果觉得等待过长，可以在 enblocal.ini 中关闭该功能，但要在显卡设置中启用 Shader 缓存。
+>
+> 在 enblocal.ini 的设置中设置显存：
+>
+> [MEMORY]
+>
+> VideoMemorySizeMb=6144
 
 ####Visceral 电影风格
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/21779?tab=description
 
-#### 童话风
-
-- 低配：http://www.9damaomods.com/forum.php?mod=viewthread&tid=89546
-
 #### 神话时代 **Mythical ENB**
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/11660?tab=description
+
+#### ISO ENB（比较推荐）
+
+- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=141439
+
+#### RZ-ENB 电影写实风（性能稍差）
+
+- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=136240
 
 ### 光照优化 Enhanced Lights and FX
 
@@ -198,7 +226,7 @@
 ### Demoniac- High Quality Glossy Female Body Texture 8K 4K 2K
 
 - 分流：http://www.9damaomods.com/thread-81591-1-2.html
-- 备注：在 ECE 以及 Bodyslide 之后安装这个进行覆盖
+- 备注：在 ECE 以及 Bodyslide 之后安装这个进行覆盖，注意它只是材质包，不包含身形文件
 - 该美化包的注解如下：
 
 ```

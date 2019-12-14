@@ -1,0 +1,10 @@
+[MEMORY]
+ExpandSystemMemoryX64=false
+ReduceSystemMemoryUsage=true
+DisableDriverMemoryManager=false
+DisablePreloadToVRAM=false
+EnableUnsafeMemoryHacks=false
+ReservedMemorySizeMb=256
+VideoMemorySizeMb=6144
+EnableCompression=false
+AutodetectVideoMemorySize=false
