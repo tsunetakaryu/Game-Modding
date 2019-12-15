@@ -278,8 +278,10 @@ SpecularPowerMultiplierInteriorNight=6
 > 晕倒大大的 HDT 发型包，注意它是以装备的形式存在的。
 >
 > 注意传奇版的与重制版不通用。
+>
+> 注意 Nexus 上面的版本比较旧，建议下载 9DM 的资源。
 
-- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/18566?tab=description
+- 下载：http://www.9damaomods.com/forum.php?mod=viewthread&tid=156907
 
 
 
