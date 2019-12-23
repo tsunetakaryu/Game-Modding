@@ -6,12 +6,14 @@
 
 1. 关于身形，再三考虑之下选择了 CBBE，因为传奇版大显光彩的 UUNP 还没完善，其实也是无奈之举。
 2. 部分模组测试：传奇版动作文件不再能直接使用（会摆大字）；装备基本上可以直接用，但 SMP 的不行。
+3. 传奇版与重制版的 ENB 同样不通用，因为使用的 DirectX 版本不一样。
 
 
 
 ## 0、系统需求
 
 如缺少 D3Dcompiler_43.dll，则需要安装 DX June 2010：https://www.microsoft.com/en-us/download/confirmation.aspx?id=8109
+这个问题在我的 Windows 10 操作系统中遇到了，所以在这里写下来。
 
 
 
@@ -266,7 +268,7 @@ SpecularPowerMultiplierInteriorNight=6
 这些值是我个人建议而已，并不需要改的一模一样。
 ```
 
-###Botox for Skyrim SSE
+### Botox for Skyrim SSE
 
 > NPC 美化，用来打个底是极好的。
 
@@ -288,7 +290,7 @@ SpecularPowerMultiplierInteriorNight=6
 
 ## 8、事件互动
 
-###任务
+### 任务
 
 #### Skyrim Unbound
 
