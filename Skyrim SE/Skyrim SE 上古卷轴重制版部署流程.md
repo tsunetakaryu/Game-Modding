@@ -212,6 +212,11 @@
 >
 > VideoMemorySizeMb=6144
 
+#### Aequinoctium ENB（强烈推荐）
+
+- 参考：https://www.nexusmods.com/skyrimspecialedition/mods/16008
+- 需要配合 Aequinoctium 天气使用
+
 #### ISO ENB（比较推荐）
 
 - 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=141439
