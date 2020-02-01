@@ -4,7 +4,6 @@
 
 这个是针对重制版的部署流程，传奇版可用于参考。
 
-1. 关于身形，再三考虑之下选择了 CBBE，因为传奇版大显光彩的 UUNP 还没完善，其实也是无奈之举。
 2. 部分模组测试：传奇版动作文件不再能直接使用（会摆大字）；装备基本上可以直接用，但 SMP 的不行。
 3. 传奇版与重制版的 ENB 同样不通用，因为使用的 DirectX 版本不一样。
 
@@ -216,6 +215,7 @@
 
 - 参考：https://www.nexusmods.com/skyrimspecialedition/mods/16008
 - 需要配合 Aequinoctium 天气使用
+- 使用心得：比较接近传奇版的 CR Realistic 292 Remastered Edition
 
 #### ISO ENB（比较推荐）
 
@@ -234,12 +234,12 @@
 
 ## 7、人物美化
 
-注意身形有 CBBE、UNP 流派区分，对于 UNP 目前比较流行的是 UUNP。
+注意身形有 CBBE、UNP 流派区分；UUNP 的迭代为 BHUNP，推荐使用。
 
-### Demoniac- High Quality Glossy Female Body Texture 8K 4K 2K
+### 材质包：Demoniac- High Quality Glossy Female Body Texture 8K 4K 2K
 
 - 分流：http://www.9damaomods.com/thread-81591-1-2.html
-- 备注：在 ECE 以及 Bodyslide 之后安装这个进行覆盖，注意它只是材质包，不包含身形文件
+- 备注：在 ECE 以及 Bodyslide 之后安装这个进行覆盖，注意它只是材质包，不包含身形文件，但安装时可选兼容 CBBE 或是 UNP 身形。
 - 该美化包的注解如下：
 
 ```
@@ -273,6 +273,11 @@ SpecularPowerMultiplierInteriorNight=6
 这些值是我个人建议而已，并不需要改的一模一样。
 ```
 
+### 材质包：The Pure
+
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/20583
+- 备注：注意它只是材质包，不包含身形文件，但安装时可选兼容 CBBE 或是 UNP 身形
+
 ### Botox for Skyrim SSE
 
 > NPC 美化，用来打个底是极好的。
@@ -289,6 +294,15 @@ SpecularPowerMultiplierInteriorNight=6
 > 注意 Nexus 上面的版本比较旧，建议下载 9DM 的资源。
 
 - 下载：http://www.9damaomods.com/forum.php?mod=viewthread&tid=156907
+
+### CBBE - 3BBB 身形
+
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/30174
+
+### UNP - BHUNP 身形
+
+- 下载：https://www.nexusmods.com/skyrimspecialedition/mods/31126
+- 使用心得：完全兼容 UUNP 或 UNP 默认预设（即 Zeroed Sliders），因此传奇版的服装模组如果是 UNP 默认身形，或是 UUNP 带有 BodySlide 工具则在刷成 *Zeroed Sliders* 之后也可以使用。但对于带有物理效果（SMP）的传奇版服装模组不一定适用。
 
 
 
