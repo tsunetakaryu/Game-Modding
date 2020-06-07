@@ -36,9 +36,9 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 > 摇晃的好文明，靠它了！
 
-- 通用框架：http://www.9damaomods.com/thread-61877-1-1.html
-- SMP 插件：http://www.9damaomods.com/thread-61878-1-1.html
-- 高跟鞋框架：http://www.9damaomods.com/thread-39231-1-1.html
+- 通用框架：http://www.9damaomods.net/thread-61877-1-1.html
+- SMP 插件：http://www.9damaomods.net/thread-61878-1-1.html
+- 高跟鞋框架：http://www.9damaomods.net/thread-39231-1-1.html
 - 或者考虑这个链接（包含了通用框架和 SMP 插件，不知道为什么我是用这个才管用）：https://www.nexusmods.com/skyrimspecialedition/mods/30872?tab=files
 
 部署：提取 Data 文件夹的内容，粘贴到 Data 目录，例如 `steamapps\common\Skyrim Special Edition\Data`。
@@ -74,7 +74,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 > 这个框架用于叠加层的显示，例如纹身。
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=183075
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=183075
 
 ### XP32 最大兼容骨骼
 
@@ -123,7 +123,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 > 可以将传奇版模组转化为重制版，是 MODDER 向的工具，一般用户可能用不到。
 
-参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=182238
+参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=182238
 
 
 
@@ -133,7 +133,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 下载：https://www.nexusmods.com/skyrimspecialedition/mods/13048/?
 
-参考：http://www.9damaomods.com/thread-36840-1-1.html
+参考：http://www.9damaomods.net/thread-36840-1-1.html
 
 ### FileAccess Interface for Skyrim SE Scripts (FISSes)
 
@@ -149,7 +149,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 下载：http://www.nexusmods.com/skyrimspecialedition/mods/266/?
 
-参考：http://www.9damaomods.com/thread-19279-1-1.html
+参考：http://www.9damaomods.net/thread-19279-1-1.html
 
 ### SSE Engine Fixes
 
@@ -163,7 +163,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 > 针对使用 ENB 时的人物光照优化
 
-参考：http://www.9damaomods.com/thread-144727-1-1.html
+参考：http://www.9damaomods.net/thread-144727-1-1.html
 
 
 
@@ -176,19 +176,19 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 ### 定制化界面布局等
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=141207
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=141207
 
 ### 彩色地图标志
 
 > 游戏中打开地图会报错，但是不影响使用；而且在使用 Dear Diary 之后警告内容消失。
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=10631
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=10631
 
 ### 终极中文字体字库
 
 > 1.9 GB，408 款字体，……
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=32236
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=32236
 
 ### AddItemMenu
 
@@ -203,7 +203,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 ### 材质包
 
-- 选项 1，压缩包大小 50 GB，部署后大约 150 GB：http://www.9damaomods.com/forum.php?mod=viewthread&tid=172174 （建议下载 4 GB 封装版，百度下载大体积文件容易损坏）
+- 选项 1，压缩包大小 50 GB，部署后大约 150 GB：http://www.9damaomods.net/forum.php?mod=viewthread&tid=172174 （建议下载 4 GB 封装版，百度下载大体积文件容易损坏）
 
 ### ENB
 
@@ -227,7 +227,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 #### ISO ENB（比较推荐）
 
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=141439
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=141439
 
 #### Re-Engaged ENB（人物拍照挺不错的）
 
@@ -246,7 +246,7 @@ Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出
 
 ### 材质包：Demoniac- High Quality Glossy Female Body Texture 8K 4K 2K
 
-- 分流：http://www.9damaomods.com/thread-81591-1-2.html
+- 分流：http://www.9damaomods.net/thread-81591-1-2.html
 - 备注：在 ECE 以及 Bodyslide 之后安装这个进行覆盖，注意它只是材质包，不包含身形文件，但安装时可选兼容 CBBE 或是 UNP 身形。
 - 该美化包的注解如下：
 
@@ -291,7 +291,7 @@ SpecularPowerMultiplierInteriorNight=6
 > NPC 美化，用来打个底是极好的。
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/16533?tab=files
-- 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=112288
+- 参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=112288
 
 ### Yundao HDT Hair
 
@@ -301,7 +301,7 @@ SpecularPowerMultiplierInteriorNight=6
 >
 > 注意 Nexus 上面的版本比较旧，建议下载 9DM 的资源。
 
-- 下载：http://www.9damaomods.com/forum.php?mod=viewthread&tid=156907
+- 下载：http://www.9damaomods.net/forum.php?mod=viewthread&tid=156907
 
 ### CBBE - 3BBB 身形
 
@@ -323,13 +323,13 @@ SpecularPowerMultiplierInteriorNight=6
 
 > 不一样的开局，用于快速自定义开局，测试模组环境等。
 
-参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=3571
+参考：http://www.9damaomods.net/forum.php?mod=viewthread&tid=3571
 
 
 
 ## 9、动作
 
-- 整合动作包：http://www.9damaomods.com/forum.php?mod=viewthread&tid=153613
+- 整合动作包：http://www.9damaomods.net/forum.php?mod=viewthread&tid=153613
 
 
 
