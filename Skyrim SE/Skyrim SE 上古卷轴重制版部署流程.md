@@ -4,7 +4,7 @@
 
 这个是针对重制版的部署流程，传奇版可用于参考。
 
-2. 部分模组测试：传奇版动作文件不再能直接使用（会摆大字）；装备基本上可以直接用，但 SMP 的不行。
+2. 部分模组测试：传奇版动作文件不再能直接使用（会摆大字）；装备基本上可以直接用，但 SMP 的不行；部分装备模组会出现材质缺失的情况（装备后出现三角外框的感叹号提示符）。
 3. 传奇版与重制版的 ENB 同样不通用，因为使用的 DirectX 版本不一样。
 
 
@@ -13,6 +13,12 @@
 
 如缺少 D3Dcompiler_43.dll，则需要安装 DX June 2010：https://www.microsoft.com/en-us/download/confirmation.aspx?id=8109
 这个问题在我的 Windows 10 操作系统中遇到了，所以在这里写下来。
+
+
+
+## 0.1、一个反向优化的禁用方法
+
+Windows 10 中默认启用“游戏模式”（即按下 Win + G 之后会弹出 XBOX 控制界面），被一些玩家发现当它启用时会存在掉帧的问题：无论是否录像，屏幕录像功能是一直启用的（类似于有些录音设备的超前录音功能），推测是这个额外的屏幕叠加层影响了回放帧率。我们可以通过“设置”检索“游戏栏”，将“使用游戏栏录制游戏剪辑、屏幕截图和广播”的功能禁用。
 
 
 
@@ -46,6 +52,7 @@
 - 部署 2：使用 MO 2 安装，然后在右侧“数据”选项卡中找到 BodySlide.exe 右键添加为可执行程序。（推荐！）
 - 部署 3：使用 MO 2 安装，通过 Explore Virtual Folder 找到 BodySlide.exe 并运行。
 - 注意现阶段暂无任何 UUNP 预设。
+- 常见问题：部分服装模组的配置文件因编码问题，可能会在 BodySlide 中无法正常显示，需要将这些配置文件（一般位于 SliderSets\xxx.osp）转换为 UTF-8 编码；或使用模型编辑器将它们另存为。
 
 ### FNIS
 
@@ -114,7 +121,7 @@
 
 ### Cathedral Assets Optimizer
 
-> 可以将传奇版模组转化为重制版。
+> 可以将传奇版模组转化为重制版，是 MODDER 向的工具，一般用户可能用不到。
 
 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=182238
 
@@ -150,7 +157,7 @@
 
 ### HDT 半透明修复
 
-> 未找到。
+> 未找到，似乎也不必要。
 
 ### Skin Shaders for ENB
 
@@ -165,6 +172,7 @@
 ### SkyUI
 
 - 下载：https://www.nexusmods.com/skyrimspecialedition/mods/12604?tab=files
+- 备注：Dear Diary 是一个非常好看的记事本背景界面，强烈推荐。
 
 ### 定制化界面布局等
 
@@ -172,7 +180,7 @@
 
 ### 彩色地图标志
 
-> 游戏中打开地图会报错，但是不影响使用。
+> 游戏中打开地图会报错，但是不影响使用；而且在使用 Dear Diary 之后警告内容消失。
 
 - 参考：http://www.9damaomods.com/forum.php?mod=viewthread&tid=10631
 
@@ -322,3 +330,15 @@ SpecularPowerMultiplierInteriorNight=6
 ## 9、动作
 
 - 整合动作包：http://www.9damaomods.com/forum.php?mod=viewthread&tid=153613
+
+
+
+## 10、实验室玩家
+
+推荐先安装轻量整合包：
+
+（本条待补充）
+
+MO 2 当中的安装顺序：
+
+XP32，SOS，SexLab Framework，其他实例
